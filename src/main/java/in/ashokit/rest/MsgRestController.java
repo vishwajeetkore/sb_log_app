@@ -15,6 +15,7 @@ public class MsgRestController {
 	
 	@GetMapping("/welcome")
 	public String getMsg() {
+		int r = 1;
 		int i = 10;
 		int j = 20;
 		int age = 16;
